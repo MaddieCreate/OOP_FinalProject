@@ -40,7 +40,7 @@ It provides that while the program executes the appropriate implementations of *
   - When iterating through the **ArrayList<DigitalCollection>** in the main program, the **displayDetails()** is called where the system determines at runtime which subclass implementation to invoke based on the actual object type.
 
 ## **ABSTRACTION.** 
-It hides the complexity of how** displayDetails()** is implemented for each  subclass while ensuring that all subclasses follow a common interface defined by the abstract parent class. The DigitalCollection class is declared as an abstract class. 
+It hides the complexity of how **displayDetails()** is implemented for each  subclass while ensuring that all subclasses follow a common interface defined by the abstract parent class. The DigitalCollection class is declared as an abstract class. 
 
   - It defines common attributes such as title, creator, description and behaviors which is the **updateMetadata().**
   
