@@ -56,7 +56,7 @@ public class DigitalMuseum {
             clearConsole();
         }
 
-        // Display all collections in table format
+        // Display all collections in table format---------------------------------------------------------------------------------------------------------------------
         System.out.println("\t\t\t\t\t\t\t=== Museum Collections ===");
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------");
         System.out.printf("%-23s %-20s %-30s %-40s %-20s%n", "Type", "Title", "Creator", "Description", "Additional Info");
@@ -67,7 +67,7 @@ public class DigitalMuseum {
             pause();
         }
 
-        // Optionally update metadata
+        // Optionally update metadata---------------------------------------------------------------------------------------------------------------------------------
         System.out.println("Would you like to update metadata for any collection? (yes/no)");
         String response = scanner.nextLine();
         if (response.equalsIgnoreCase("yes")) {
@@ -93,7 +93,7 @@ public class DigitalMuseum {
         scanner.close();
     }
 
-    // Utility method to clear the console
+    // Utility method to clear the console---------------------------------------------------------------------------------------------------------------------------
     public static void clearConsole() {
         try {
             if (System.getProperty("os.name").contains("Windows")) {
@@ -107,7 +107,7 @@ public class DigitalMuseum {
         }
     }
 
-    // Utility method to pause for a short duration
+    // Utility method to pause for a short duration---------------------------------------------------------------------------------------------------------------------
     public static void pause() {
         try {
             Thread.sleep(1500); // Pause for 1.5 seconds
@@ -117,7 +117,7 @@ public class DigitalMuseum {
     }
 }
 
-// Abstract class to represent a general digital collection
+// Abstract class to represent a general digital collection---------------------------------------------------------------------------------------------------------------
 abstract class DigitalCollection {
     private String title;
     private String creator;
@@ -149,7 +149,7 @@ abstract class DigitalCollection {
     }
 }
 
-// Artwork class
+// Artwork class------------------------------------------------------------------------------------------------------------------------------------------------------
 class Artwork extends DigitalCollection {
     private int yearCreated;
 
@@ -169,7 +169,7 @@ class Artwork extends DigitalCollection {
     }
 }
 
-// Artifact class
+// Artifact class--------------------------------------------------------------------------------------------------------------------------------------------------
 class Artifact extends DigitalCollection {
     private String origin;
 
@@ -189,7 +189,7 @@ class Artifact extends DigitalCollection {
     }
 }
 
-// HistoricalDocument class
+// HistoricalDocument class-------------------------------------------------------------------------------------------------------------------------------------------
 class HistoricalDocument extends DigitalCollection {
     private int yearPublished;
 
