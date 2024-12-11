@@ -45,3 +45,48 @@ It hides the complexity of how **displayDetails()** is implemented for each  sub
   - It defines common attributes such as title, creator, description and behaviors which is the **updateMetadata().**
   
   - It includes the **displayDetails()** method as an abstract method, which means the subclasses are required to provide their specific implementation.
+
+# III. Sustainable Development Goals
+The Digital Museum Management System is a powerful tool designed to support the United Nations' Sustainable Development Goal 11: Sustainable Cities and Communities, with a core mission of preserving and protecting cultural heritage. In our rapidly changing world, cultural artifacts, historical documents, and artworks are at risk of being forgotten, damaged, or lost. Our digital system provides a simple yet effective solution to this challenge by creating a comprehensive digital record that captures the essence of each item's historical and cultural significance.
+
+Cultural heritage is more than just a collection of old objects; it represents the living narrative of human experience, connecting communities to their roots and providing a sense of identity and continuity. By offering an easy-to-use platform for museums, educational institutions, and community centers to document their collections, we ensure that these invaluable stories are not only preserved but also made accessible to a wider audience. The system eliminates traditional barriers to accessing cultural information, allowing people from different backgrounds and locations to explore and learn about diverse cultural artifacts.
+
+By aligning with SDG 11, our Digital Museum Management System does more than just catalog items; it builds bridges between past and present, between local communities and global audiences. It recognizes that every artifact tells a story, and every story matters. Through this simple yet innovative approach, we are not just preserving objects, but we are safeguarding the collective memory of human civilization, ensuring that the rich tapestry of our shared experiences continues to inspire, educate, and connect generations to come.
+
+# IV. Program/System Instruction
+## Digital Museum Management System: User Instructions
+## Getting Started
+1.When you run the program, you'll see a welcome message welcoming you to the Digital Museum Collection Management System.
+2.The system will first ask you how many museum collections you want to create. 
+  - Just enter a number (like 3 or 5)
+  - This tells the program how many items you'll be documenting
+
+## Creating Collections
+For each collection, you'll choose a type: 
+- Press 1 for Artwork
+- Press 2 for Artifact
+- Press 3 for Historical Document
+  
+## After selecting the type, you'll enter details: 
+- Title of the item
+- Name of the creator
+- A description of the ite
+- Additional specific information: 
+  - For Artwork : Year it was created
+  - For Artifact : Where it originated
+  - For Historical Document : Year it was published
+  
+## Viewing Collections
+After entering all collections, the system will automatically display a table 
+- Shows all your entered collections
+- Includes details for each item
+- Pauses briefly between displays to help you read
+  
+## Updating Information
+The system will ask if you want to update any collection's metadata 
+- Type "yes" if you want to add more information
+- Type the exact title of the collection you want to update
+- Enter new information you want to add
+  
+## Finishing Up
+After you're done, the system will thank you and close.
