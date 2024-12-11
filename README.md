@@ -57,6 +57,7 @@ By aligning with SDG 11, our Digital Museum Management System does more than jus
 ## Digital Museum Management System: User Instructions
 ## Getting Started
 1.When you run the program, you'll see a welcome message welcoming you to the Digital Museum Collection Management System.
+
 2.The system will first ask you how many museum collections you want to create. 
   - Just enter a number (like 3 or 5)
   - This tells the program how many items you'll be documenting
@@ -67,7 +68,7 @@ For each collection, you'll choose a type:
 - Press 2 for Artifact
 - Press 3 for Historical Document
   
-## After selecting the type, you'll enter details: 
+After selecting the type, you'll enter details: 
 - Title of the item
 - Name of the creator
 - A description of the ite
